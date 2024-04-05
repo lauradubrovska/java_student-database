@@ -1,4 +1,4 @@
-// 231RDB049 Laura Dubrovska 10.gr
+// 231RDB049 
 import java.io.EOFException;
 import java.io.File;
 import java.io.FileInputStream;
@@ -211,6 +211,6 @@ public class Main {
     }
 
     public static void about() {
-        System.out.println("\n231RDB049 Laura Dubrovska 10.gr");
+        System.out.println("\nLaura Dubrovska ");
     }
 }
