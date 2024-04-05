@@ -1,15 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/41u1QVAe)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=14437719)
-# 7. Lab. darbs
-Izpētiet programmu Main.java. Dotā programma izpilda sekojošas darbības:
-* Izvada ekrānā izvēlni, kas satur piecas komandas: Create, Calculate, View, About un Exit un ievada no tastatūras komandas numuru.
-* Ja lietotājs izvēlas komandu Create, tad programma veido failu Students.dat (tekošā mapē) un ieraksta dotā failā piecus klases Student objektus.
-* Ja lietotājs izvēlas komandu View, tad programma izvada ekrānā faila Students.dat saturu.
-* Ja lietotājs izvēlas komandu Exit, tad programma beidz savu darbu.
-* Ja lietotājs izvēlas komandu Calculate vai About, tad programma izsauc klases Main metodi calculate vai metodi about. Dotās metodes neko nedara.
 
-# Uzdevums:
-Modificējiet metodes calculate un about tā, lai tie izpildītu sekojošas darbības:
-* Metodei calculate ir jāievada no tastatūras studenta numurs (pieņemt, ka studenti ir sanumurēti no vieninieka) un jāmodificē failā Students.dat dotā studenta atzīmes. Jaunas atzīmes ievadīt no tastatūras. Ja tika ievadīts negatīvs studenta numurs vai numurs pārsniedz studentu skaitu failā, tad programmai ir jāizvada paziņojums "no such student".
-* Metodei about ir jāizvada ziņas par programmas izstrādātāju (studenta apliecības numurs, vārds, uzvārds, grupa). 
+# The program should perform the following actions:
+* Displays a menu on the screen containing five commands: Create, Calculate, View, About and Exit and enters the command number from the keyboard.
+* If the user selects the Create command, the program creates a Students.dat file (in the current folder) and writes five objects of the Student class to the given file.
+* If the user selects the View command, the program displays the contents of the Students.dat file on the screen.
+* If the user selects the Exit command, the program ends its work.
+* If the user selects the Calculate or About command, the program calls the calculate method or the about method of the Main class. The given methods do nothing.
 
+# Task:
+Modify the calculate and about methods to do the following:
+* The calculate method must enter the student's number from the keyboard (assume that students are numbered from one) and modify the student's marks given in the Students.dat file. Enter new marks from the keyboard. If a negative student number was entered or the number exceeds the number of students in the file, then the program must output a "no such student" statement.
